@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitrina Ganadera - Plataforma Digital con IA</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <a href="#home">
+                    <img src='static/image/logo/1.png' alt="Vitrina Ganadera Logo">
+
+                </a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="active">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#funcionamiento">Cómo Funciona</a></li>
+                <li><a href="#vitrina">Vitrina</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li class="btn-container">
+                    <a href="#login" class="btn btn-secondary">Ingresar</a>
+                </li>
+                <li class="btn-container">
+                    <a href="#registro" class="btn btn-primary">Registrarse</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Vitrina Ganadera</h1>
+                <h2>Innovación en la comercialización de ganado con IA</h2>
+                <p>Plataforma digital que identifica, valora y comercializa ganado mediante inteligencia artificial.</p>
+                <div class="hero-buttons">
+                    <a href="#demo" class="btn btn-primary">Solicitar Demo</a>
+                    <a href="#funcionamiento" class="btn btn-outline">Ver Cómo Funciona</a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="servicios">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nuestros Servicios</h2>
+                <p>Soluciones innovadoras para el sector ganadero</p>
+            </div>
+
+            <div class="servicios-grid">
+                <div class="servicio-card">
+                    <div class="servicio-icon">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <h3>Identificación Automática</h3>
+                    <p>Reconocimiento de raza, genotipo y características mediante una sola fotografía.</p>
+                </div>
+
+                <div class="servicio-card">
+                    <div class="servicio-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3>Análisis de Salud</h3>
+                    <p>Evaluación del estado de salud y condición física del animal mediante IA.</p>
+                </div>
+
+                <div class="servicio-card">
+                    <div class="servicio-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Valoración Automática</h3>
+                    <p>Estimación del precio de mercado basado en características y condiciones actuales.</p>
+                </div>
+
+                <div class="servicio-card">
+                    <div class="servicio-icon">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <h3>Vitrina Digital</h3>
+                    <p>Comercialización de ganado en una plataforma moderna y de fácil acceso.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Funcionamiento -->
+    <section id="funcionamiento" class="funcionamiento">
+        <div class="container">
+            <div class="section-header">
+                <h2>Cómo Funciona</h2>
+                <p>Un proceso simple y efectivo para la valoración de su ganado</p>
+            </div>
+
+            <div class="funcionamiento-pasos">
+                <div class="paso">
+                    <div class="paso-numero">1</div>
+                    <div class="paso-contenido">
+                        <h3>Captura de Imagen</h3>
+                        <p>Tome una fotografía del animal con su dispositivo móvil o utilice nuestro sistema ESP32-CAM.</p>
+                        <img src="/static/image/Fun/1.jpeg" alt="Captura de Imagen">
+                    </div>
+                </div>
+
+                <div class="paso">
+                    <div class="paso-numero">2</div>
+                    <div class="paso-contenido">
+                        <h3>Análisis con IA</h3>
+                        <p>Nuestro algoritmo analiza la imagen y reconoce raza, estado de salud, función y adaptabilidad.</p>
+                        <img src="/static/image/Fun/2.jpeg" alt="Análisis con IA">
+                    </div>
+                </div>
+
+                <div class="paso">
+                    <div class="paso-numero">3</div>
+                    <div class="paso-contenido">
+                        <h3>Determinación del Precio</h3>
+                        <p>Se estima el valor del animal basado en sus características y condiciones del mercado.</p>
+                        <img src="/static/image/Fun/3.jpeg" alt="Determinación del Precio">
+                    </div>
+                </div>
+
+                <div class="paso">
+                    <div class="paso-numero">4</div>
+                    <div class="paso-contenido">
+                        <h3>Publicación en la Plataforma</h3>
+                        <p>El animal se publica en la vitrina digital para que compradores potenciales puedan acceder.</p>
+                        <img src="/static/image/Fun/4.jpeg" alt="Publicación en la Plataforma">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo ESP32-CAM -->
+    <section id="demo-esp32" class="demo-esp32">
+        <div class="container">
+            <div class="esp32-content">
+                <div class="esp32-text">
+                    <h2>Tecnología de Vanguardia</h2>
+                    <h3>ESP32-CAM para Captura Automática</h3>
+                    <p>Nuestro sistema utiliza el módulo ESP32-CAM, un microcontrolador con cámara integrada y conectividad Wifi que permite capturar imágenes del ganado de manera automática y enviarlas a la plataforma para su análisis.</p>
+                    <ul class="esp32-features">
+                        <li><i class="fas fa-check-circle"></i> Bajo costo y fácil implementación</li>
+                        <li><i class="fas fa-check-circle"></i> Conectividad Wifi integrada</li>
+                        <li><i class="fas fa-check-circle"></i> Captura de alta resolución</li>
+                        <li><i class="fas fa-check-circle"></i> Ideal para entornos rurales</li>
+                    </ul>
+                    <a href="#esp32-info" class="btn btn-secondary">Más Información</a>
+                </div>
+                <div class="esp32-image">
+                    <img src="static/image/esp/esp32-cam-2_1_1__99248.jpg" alt="ESP32-CAM Módulo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id = "IA" class = "IA">
+
+    
+
+      <h1>IA</h1>
+
+<p>Reconocimiento de raza</p>
+
+    <!-- Formulario para subir imagen -->
+    <form id="uploadForm" enctype="multipart/form-data">
+      <input type="file" id="imageInput" name="image" accept="image/*" required>
+      <button type="submit">Identificar Raza</button>
+    </form>
+  
+    <!-- Resultado -->
+    <div id="result"></div>
+
+</section>
+
+    <!-- Vitrina -->
+    <section id="vitrina" class="vitrina">
+        <div class="container">
+            <div class="section-header">
+                <h2>Vitrina Ganadera</h2>
+                <p>Ejemplares destacados en nuestra plataforma</p>
+            </div>
+  
+            
+
+            <div class="filtros">
+                <div class="filtro">
+                    <label for="raza">Raza:</label>
+                    <select id="raza" name="raza">
+                        <option value="todas">Todas</option>
+                        <option value="brahman">Brahman</option>
+                        <option value="angus">Angus</option>
+                        <option value="hereford">Hereford</option>
+                        <option value="cebu">Cebú</option>
+                        <div class="vacas-image">
+                            <img src="./image/Bovinos/" alt="VaxasSS">
+                        </div>
+                    </select>
+                </div>
+                <div class="filtro">
+                    <label for="funcion">Función:</label>
+                    <select id="funcion" name="funcion">
+                        <option value="todas">Todas</option>
+                        <option value="engorde">Engorde</option>
+                        <option value="reproduccion">Reproducción</option>
+                        <option value="leche">Leche</option>
+                    </select>
+                </div>
+                <div class="filtro">
+                    <label for="precio">Precio:</label>
+                    <select id="precio" name="precio">
+                        <option value="todos">Todos</option>
+                        <option value="bajo">Hasta $1,000,000</option>
+                        <option value="medio">$1,000,000 - $3,000,000</option>
+                        <option value="alto">Más de $3,000,000</option>
+                    </select>
+                </div>
+                <button class="btn btn-secondary" id="filtrar">Filtrar</button>
+            </div>
+
+            <div class="ganado-grid" id="ganado-grid">
+                <!-- Esta sección se llenará con JavaScript -->
+            </div>
+
+            <div class="vitrina-cta">
+                <p>¿Quiere ver más ejemplares disponibles?</p>
+                <a href="#registro" class="btn btn-primary">Registrarse Ahora</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section class="testimonios">
+        <div class="container">
+            <div class="section-header">
+                <h2>Lo que dicen nuestros clientes</h2>
+                <p>Ganaderos que confían en nuestra tecnología</p>
+            </div>
+
+            <div class="testimonios-slider" id="testimonios-slider">
+                <div class="testimonio-slide">
+                    <div class="testimonio-contenido">
+                        <div class="testimonio-texto">
+                            <p>"La Vitrina Ganadera ha revolucionado la forma en que comercializo mi ganado. La precisión en la valoración automática me ha permitido obtener mejores precios."</p>
+                        </div>
+                        <div class="testimonio-autor">
+                            <img src="/static/image/Usua/1.png" alt="Cliente 1">
+                            <div>
+                                <h4>Juan Pérez</h4>
+                                <p>Ganadero - Pore - Casanare</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonio-slide">
+                    <div class="testimonio-contenido">
+                        <div class="testimonio-texto">
+                            <p>"El sistema de identificación automática es increíblemente preciso. Ahora puedo llevar un mejor control de mi ganado y tomar decisiones más informadas."</p>
+                        </div>
+                        <div class="testimonio-autor">
+                            <img src="/static/image/Usua/1.png" alt="Cliente 2">
+                            <div>
+                                <h4>María Rodríguez</h4>
+                                <p>Ganadera - Antioquia</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonio-slide">
+                    <div class="testimonio-contenido">
+                        <div class="testimonio-texto">
+                            <p>"La tecnología ESP32-CAM es muy fácil de implementar en mi finca. Ahora puedo capturar imágenes de mi ganado sin complicaciones y obtener información valiosa."</p>
+                        </div>
+                        <div class="testimonio-autor">
+                            <img src="/static/image/Usua/1.png" alt="Cliente 3">
+                            <div>
+                                <h4>Carlos Gómez</h4>
+                                <p>Ganadero - Valle del Cauca</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonios-controls">
+                <button id="testimonio-prev" class="testimonio-control"><i class="fas fa-chevron-left"></i></button>
+                <button id="testimonio-next" class="testimonio-control"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Transforme su negocio ganadero hoy mismo</h2>
+                <p>Únase a la revolución de la ganadería de precisión con inteligencia artificial</p>
+                <div class="cta-buttons">
+                    <a href="#demo" class="btn btn-primary">Solicitar Demo</a>
+                    <a href="#contacto" class="btn btn-outline">Contactar Ahora</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contáctenos</h2>
+                <p>Estamos listos para responder a sus inquietudes</p>
+            </div>
+
+            <div class="contacto-content">
+                <div class="contacto-form">
+                    <form id="contacto-form">
+                        <div class="form-group">
+                            <label for="nombre">Nombre completo</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Su nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo electrónico</label>
+                            <input type="email" id="email" name="email" placeholder="correo@ejemplo.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono">Teléfono</label>
+                            <input type="tel" id="telefono" name="telefono" placeholder="Su teléfono" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" name="mensaje" placeholder="¿Cómo podemos ayudarle?" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                    </form>
+                </div>
+                <div class="contacto-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Dirección</h4>
+                            <p>Oficinas De Vitrina Ganadera Meta</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Teléfono</h4>
+                            <p>+57 3022491437</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@vitrinaganadera.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Horario</h4>
+                            <p>Lunes - Viernes: 8:00 AM - 12:00 AM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="static/image/logo/1.png" alt="Vitrina Ganadera Logo">
+                    <p>Plataforma Digital con IA para la Identificación y Comercialización de Ganado</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#home">Inicio</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#funcionamiento">Cómo Funciona</a></li>
+                        <li><a href="#vitrina">Vitrina</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Servicios</h4>
+                    <ul>
+                        <li><a href="#identificacion">Identificación Automática</a></li>
+                        <li><a href="#analisis">Análisis de Salud</a></li>
+                        <li><a href="#valoracion">Valoración Automática</a></li>
+                        <li><a href="#comercializacion">Comercialización</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Síguenos</h4>
+                    <div class="social-links">
+                        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Vitrina Ganadera - Universidad Católica de Colombia. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="Script.js"></script>
+</body>
+</html>

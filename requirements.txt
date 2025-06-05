@@ -1,0 +1,7 @@
+Flask
+flask_cors
+modelo
+numpy
+opencv-python
+tensorflow
+werkzeug
